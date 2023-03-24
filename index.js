@@ -11,6 +11,7 @@ app.get('/users', (req, res) => {
   res.json(users);
 });
 
+
 // Get a specific user by ID
 app.get('/users/:id', (req, res) => {
   const user = users.find(u => u.id === parseInt(req.params.id));
