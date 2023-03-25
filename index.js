@@ -9,6 +9,7 @@ const users = [];
 // Get all users
 app.get('/users', (req, res) => {
   res.json(users);
+  
 });
 
 
